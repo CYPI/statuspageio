@@ -2,7 +2,6 @@
 
 # Description:
 #   Create/update/delete incidnet on statuspage.io
-#   https://yelpstatus.statuspage.io/
 #
 
 import argparse
@@ -15,11 +14,11 @@ import time
 # statuspage fqdn
 statuspage_url = 'https://api.statuspage.io/v1/pages/'
 # Api token
-api_token = 'd307d7d7-aad3-4259-b836-740c9ede43bb'
+api_token = '<<statuspage.io api token>>'
 # Api header
 api_header = {'Authorization': 'OAuth ' + api_token}
 # statuspage.io page #
-statuspage_id = '9xftmss2g1f9'
+statuspage_id = '<<statuspage.io page id>>'
 
 class Incident(object):
 
