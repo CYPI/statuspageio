@@ -1,10 +1,14 @@
 # Statuspageio
+
 Python script that let's you create/update/delete realtime incident to your statuspage.io dashboard
 
 # Configuration:
 statuspage_url =
+
 api_token = 
+
 api_header =
+
 statuspage_id =
 
 # Use:
